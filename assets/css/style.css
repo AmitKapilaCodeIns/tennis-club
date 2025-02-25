@@ -33,6 +33,10 @@ h3 {
     background-color: var(--primary-color);
 }
 
+#navbar .logo {
+    width: 24px;
+}
+
 /* grid visualization CSS for testing */
 /* .container,
 .row {

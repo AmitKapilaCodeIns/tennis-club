@@ -26,13 +26,52 @@
 
 <body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
-    <div>Navigation</div>
+    <!-- Change to container gives the logo and nav items the same outer margin as the rest of our grid. -->
+    <!-- the background colour of the navbar still stretches to the edges,
+so we get a neat line at the top and our nav items are aligned with where the content will go. -->
+    <!-- The navbar-expand-lg collapses to a burger on mobile and tablet -->
+    <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="dark">
+        <!-- Add data-bs-theme="dark" data-bs-theme attribute is a custom attribute that Bootstrap uses to style the text in a navbar to white.  -->
+        <div class="container"> <!-- Change from container fluid to container. -->
+            <a class="navbar-brand" href="index.html"><img src="assets/images/sign.png" alt="Richings logo"
+                    class="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <!-- ms-auto: margin start auto, pushes nav items right when combined with flex-box -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Events</a>
+                    </li>
+                    <li>
+                        <a class="nav-link active" aria-current="page" href="coaching.html">Coaching</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <!-- Header with carousel -->
-    <header class="container">
+    <!-- Header -->
+    <header id="header" class="container section">
         <div class="row">
-            <div class="col-12 col-xl-6">Coaching intro text section</div>
-            <div class="col-12 col-xl-6">Carousel</div>
+            <div class="col-12 text-center text-xl-start">
+                <h1 class="display-3">Coaching available</h1>
+                <p class="lead display-6 sub-heading-color">Explore coaching options</p>
+                <p class="my-4">Whether you're just starting your tennis journey or looking to sharpen your skills,
+                    we've got something for both Adults and Juniors. Join us for coaching, tailored to all ages and
+                    abilities.</p>
+            </div>
         </div>
     </header>
 

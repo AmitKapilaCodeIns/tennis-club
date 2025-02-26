@@ -38,9 +38,9 @@ h2 {
 }
 
 .section {
-    /* padding-top: 4rem; prevent navbar overlap */
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    padding-top: 4rem; /* prevent navbar overlap */
+    /* margin-top: 2rem;
+    margin-bottom: 2rem; */
 }
 
 /* Buttons */

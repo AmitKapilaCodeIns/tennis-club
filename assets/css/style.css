@@ -65,6 +65,10 @@ h2 {
     background-color: transparent;
 }
 
+#services .card {
+    margin-bottom: 1.5rem;
+}
+
 /* grid visualization CSS for testing */
 /* .container,
 .row {

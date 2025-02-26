@@ -55,6 +55,17 @@ h2 {
     color: white;
 }
 
+.custom-button-outline {
+    border: 3px solid var(--highlight-color);
+    padding: 7px 25px;
+    color: var(--highlight-color);
+}
+
+.custom-button-outline:hover {
+    background-color: var(--highlight-color);
+    color: white;
+}
+
 /* Navbar */
 #navbar {
     /* You need to remove the bg-body-tertiary from the navbar you obtained from Bootstrap as that has !important

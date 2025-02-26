@@ -58,6 +58,13 @@ h2 {
     font-family: var(--secondary-font);
 }
 
+/* Services */
+#services .card-footer {
+    font-weight: bold;
+    color: var(--highlight-color);
+    background-color: transparent;
+}
+
 /* grid visualization CSS for testing */
 /* .container,
 .row {

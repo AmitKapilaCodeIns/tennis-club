@@ -83,9 +83,17 @@ h2 {
 /* Media queries */
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+@media screen and(min-width: 768px) {
     /* Make all service cards the same height for consistency */
     #services .card-body {
         min-height: 166px;
+    }
+}
+
+/* Large devices (tablets, 992px and up) */
+@media screen and(min-width: 992px) {
+    /* Make all service cards the same height for consistency */
+    #services .card-body {
+        min-height: auto;
     }
 }

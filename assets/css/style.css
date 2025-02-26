@@ -69,6 +69,12 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Coaching cards */
+
+#coaching .card {
+    border: none;
+}
+
 /* grid visualization CSS for testing */
 /* .container,
 .row {

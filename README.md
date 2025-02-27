@@ -62,17 +62,21 @@ The website is comprised of 4 pages, two of which are accessible from the naviga
     -   I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website. I confirmed that the colors and fonts are easy to read and that the site is accessible.
     -   **INDEX PAGE**
         ![Lighthouse Index page screenshot ](./documentation/index-lighthouse.png)
-    -   **SERVICES PAGE**  
-        ![Lighthouse Services page screenshot ](./documentation/index-lighthouse.png)
-    -   **Member PAGE**  
-        ![Lighthouse Member page screenshot ](./documentation/index-lighthouse.png)
+    -   **COACHING PAGE**  
+        ![Lighthouse Services page screenshot ](./documentation/coaching-lighthouse.png)
+    -   **Membership PAGE**  
+        ![Lighthouse Member page screenshot ](./documentation/membership-lighthouse.png)
+    -   **Membership PAGE**  
+        ![Lighthouse Member page screenshot ](./documentation/thankyou-lighthouse.png)
 -   The website was tested on Chrome, Mozilla, Edge and Safari browsers with no problems found.
 -   Links: Tested and confirmed that each link refer to each page, worked as expected,and redirecting the user between the pages
 -   Tested all links, to social media sites leading to external pages opened correctly in a seperate browser tab.
--   I tested and confirmed that the Member form works, all fields are required, the check buttons one of them is checked, and the email field only accpect email, and the apply buttun works perfectly in the end to submit the form, with a messa back from Code Institute.
+-   I tested and confirmed that the Membership form works, all fields are required, the email field only accepts email, and the submit button works perfectly in the end to submit the form, with a message back from the thank you page.
     ![Screenshot of data from the form submit ](./documentation/member-form.png)
 -   HTML
-    -   [HTML Validator](https://validator.w3.org/#validate_by_upload) was run each page of the project, and small syntax errors identified were fixed. At the final stage no errors or warnings were found.
+    -   [HTML Validator](https://validator.w3.org/#validate_by_upload) was run each page of the project. A syntax error was found.
+        ![Screenshot Html pages error ](./documentation/html-validator-error.png)
+        The error was fixed. At the final stage no errors or warnings were found.
         ![Screenshot Html pages validator ](./documentation/html-validator.png)
 -   CSS
     -   [CSS Validator](https://validator.w3.org/#validate_by_upload) was run each page of the project, and small syntax errors identified were fixed. At the final stage no errors or warnings were found.

@@ -205,6 +205,9 @@ h2 {
     #services .card-body {
         min-height: 166.48px;
     }
+    #coaching .card-body {
+        min-height: 380.48px;
+    }
 }
 
 /* Large devices (small laptops, 992px and up) */
@@ -212,6 +215,9 @@ h2 {
     /* Make all service cards the same height for consistency */
     #services .card-body {
         min-height: auto;
+    }
+    #coaching .card-body {
+        min-height: 329.48;
     }
 }
 
@@ -221,6 +227,9 @@ h2 {
     #services .card-body {
         min-height: 220px;
     }
+    #coaching .card-body {
+        min-height: 483px;
+    }
 }
 
 /* xxl devices (larger desktops, 1400px and up) */
@@ -228,5 +237,8 @@ h2 {
     /* make all service cards the same height for consistency */
     #services .card-body {
         min-height: 195px;
+    }
+    #coaching .card-body {
+        min-height: 459px;
     }
 }

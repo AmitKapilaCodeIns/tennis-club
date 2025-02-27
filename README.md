@@ -31,9 +31,9 @@ The website is comprised of 4 pages, two of which are accessible from the naviga
         ![Image of the landing-page - welcome and carousel](./documentation/landing-page.png)
 
         -   The services section highlights the diverse range of things available to members. It's role is to introduce visitors to Riching's engaging offerings, be they the all-weather tennis courts, the coaching services, friendly club atmosphere, tennis leagues, social sessions and the bar. The aim is to show the club will fulfill the needs of casual players looking for all year-round tennis in a fun and relaxed atmosphere or enthusiasts looking to play competitive team tennis and join leagues. Parents looking to encourage their kid’s tennis skills will also find the club satisfies that need. Furthermore, the layout of the services section has been optimized for responsiveness using CSS Grid. This ensures that the services are displayed in varying numbers of columns, depending on the screen size, providing an optimal viewing experience across different devices.
-            ![Image of the services section part of Riching's website](./documentation/services-section.jpg)
+            ![Image of the services section part of Riching's website](./documentation/services-section.png)
         -   The events section details specific events held weekly. It allows visitors to decide on what events they are interested in and whether the timings suit them.
-            ![Image of the events section part of Riching's website](./documentation/events-section.jpg)
+            ![Image of the events section part of Riching's website](./documentation/events-section.png)
 
 *   The Coaching page
 

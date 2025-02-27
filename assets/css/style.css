@@ -78,10 +78,6 @@ h2 {
     width: 24px;
 }
 
-#navbar .nav-link {
-    color: aliceblue;
-}
-
 /* Header */
 #header .lead {
     font-family: var(--secondary-font);

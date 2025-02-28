@@ -92,11 +92,70 @@ The website is comprised of 4 pages, two of which are accessible from the naviga
 
 ## Bugs
 
--   Initially, positioning the header with navigation correctly across different media sizes posed a challenge, resulting in duplicated lines. However, this issue was resolved after examining the use of relative measures in the width and height of elements.
-    ![Screenshot Navigation Bug ](./documentation/bug.png)
+-   Initially, when clicking on the navbar links to the sections in the page the h2 header was covered by the navbar.
+    ![Screenshot Navigation to section Bug ](./documentation/navclick-to-section.png)
+-   By adding padding to the top of the section class the navbar was not covering the h2 header.
+
+-   On smaller screens, the navbar did not close when clicking on links to sections on the same page.
+    ![Screenshot Navigation to section Bug ](./documentation/navbar-not-closing.png)
+-   Fixed by adding javaScript to ensure the navbar closes when clicking internal links
+
+```
+    <script>
+        document
+            .querySelectorAll(".navbar-collapse .nav-link")
+            .forEach((link) => {
+                link.addEventListener("click", function (e) {
+                    let section = document.querySelector(e.target.getAttribute("href"));
+                    if (section) {
+                        e.preventDefault(); // Prevent default anchor click behavior
+                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                        window.scroll({
+                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                            behavior: "smooth",
+                        });
+                        document
+                            .querySelector(".navbar-collapse")
+                            .classList.remove("show"); // Collapse navbar
+                    }
+                });
+            });
+    </script>
+```
 
 -   Relative measures were also applied to image sizes, divs, and sections across all pages, as suggested and explained by the tutor to enhance responsiveness.
 
 ---
+
+### Unfixed Bugs
+
+All bugs identified were fixed
+
+## Deployment
+
+### Versin Control
+
+-   The site was created using VS Code as IDE and pushed to Github to the remote repository 'tennis-club'.
+-   Git commands were employed extensively during development to push the code to the remote repository. The sequence of Git commands utilized includes:
+    -   **git add .**: This command adds the files to the staging area, preparing them for commitment.
+    -   **git commit -m "commit message"**: It commits the changes to the local repository queue, marking them as ready for the final step.
+    -   **git push**: This command is executed to push all committed code to the remote repository on Github.
+    ### Deployment to Github pages
+    The site was deployed to GitHub pages. The steps taken to deploy are as follows:
+    1. Log in to [Github](https://github.com/);
+    2. Navigate to [AmitKapilaCodeIns/tennis-club](https://github.com/AmitKapilaCodeIns/tennis-club) in the list of repositories;
+    3. In the GitHub repository, navigate to the Settings tab;
+    4. In Settings scroll down to GitHub pages which opens in a new page;
+    5. From the source section drop-down menu, select the Master Branch;
+    6. Once the master branch has been selected, the page is automatically refreshed and a display indicates the successful deployment and the link to the address.
+       The live live link can be acess here: [Richings Tennis](https://amitkapilacodeins.github.io/tennis-club/index.html)
+    ### Cloning Repository Code locally
+    -   To clone the repository code locally, follow these steps:
+    1. Navigate to the Github repository you wish to clone;
+    2. Click on the "Code" button located above all the project files;
+    3. Select "HTTPS" and copy the repository link;
+    4. Open the IDE of your choice and paste the copied git URL into the IDE terminal;
+    5. Press Enter to execute the command;
+    6. The project will now be created as a local clone in your IDE.
 
 ---

@@ -44,7 +44,9 @@ The website is comprised of 4 pages, two of which are accessible from the naviga
     -   Clear Navigation: Easily navigate through different sections of the website, including Home, Services, Events, Coaching and Contact, situated to the right.
     -   Responsive Design: Navigation bar adapts gracefully to various screen sizes, ensuring optimal usability whether you're browsing on a desktop, tablet, or mobile device situated in the burger-icon that expands when you click it.
     -   The header: At the top left in the header section, there is the website logo, that will take the user to the home page when clicked.
-    -   The website logo and all pages use the main color theme; greens, blues and shades of white. The favicon adopts this theme.
+    -   The website logo and all pages use the main color theme; greens, blues and shades of white. The favicon adopts this theme. The primary colour choice of dark green and the secondary colour choice of light green reflect the colours a visitor might see. The navbar has light colours against a dark background contrasting each other well. The background is a light colour that contains the cards and other elements in a simple way.
+    -   The primary font Prompt was chosen for it's harmonious and simple feel. The secondary Noto Serif elegantly makes large text stand out without looking ungainly.
+    -   The icons used were chosen for their obvious meaning and purpose so that they can be understood by everyone.
         ![Image of the navbar and the logo CelesTial](./documentation/navbar.png)
     -   Dynamic Footer: the website boasts a dynamic footer section that provides essential links, such as social media profiles, contact information, and opening times, ensuring easy access to relevant content and enhancing user engagement.
         ![Image of the footer with all social medias contacs and copyright](./documentation/footer.png)
@@ -157,7 +159,7 @@ All bugs identified were fixed
 
 ## Deployment
 
-### Versin Control
+### Version Control
 
 -   The site was created using VS Code as IDE and pushed to Github to the remote repository 'tennis-club'.
 -   Git commands were employed extensively during development to push the code to the remote repository. The sequence of Git commands utilized includes:
@@ -183,3 +185,29 @@ All bugs identified were fixed
     6. The project will now be created as a local clone in your IDE.
 
 ---
+
+## Wireframes
+
+-   These wireframes were created using Balsamiq during the Scope Plane part of the design and planning process for this project. The site was developed with the Desktop layout method first. The wireframes were therefore drawn with that thought in mind and adapted along of the project, and created with [Balsamiq](https://balsamiq.cloud/) . First picture: Home page, Second picture: Coaching page, Third picture: Member page, Fourth picture: Thank you page.
+    ![Screenshot Home page Wiframe ](./wireframes/home-wiframe.png)
+    ![Screenshot Coaching page Wiframe ](./wireframes/coaching-wiframe.png)
+    ![Screenshot Member page Wiframe](./wireframes/member-wiframe.png)
+    ![Screenshot Thankyou page Wiframe](./wireframes/thankyou-wiframe.png)
+    ***
+
+---
+
+    ## Credits
+    * I would like to extend a special thanks to my tutor [Spencer Barriball](https://www.linkedin.com/in/spencerbarriball/), whose guidance and support have been invaluable throughout this journey.
+    ### Content
+    * The icons in the footer and in the headings were taken from:[Font Awesome](https://fontawesome.com/).
+    * The Logo and Favicon was created at:[Canva](https://www.canva.com/).
+    * I took inspiration from the Love Running project to create the header, hero-image section and footer, and for development of the cards were based in [Youtube Class](https://www.youtube.com/watch?v=00LpIJ58FZ4).
+    * [Google fonts](https://fonts.google.com/) were used to import the fonts into the style.css file which is used on all pages throughout the project.
+    [COOLORS](https://coolors.co/) werw used to generate the color palettes, into the style.css file which is used on all pages throughout the project.
+    * Part of the English content in this website was generated with the assistance of [AI-ChatGPT](https://chat.openai.com/), an AI language model developed by OpenAI.
+
+    ### Media
+    * All the images in eache page of the site: Home, Services and Member was taken from: [Pexels](https://www.pexels.com/).
+    * The video in the home page as taken as well from [Pexels](https://www.pexels.com/).
+    * For a better performance of the website, the images was resizes and changed the format to WEBP using the [Birme](https://www.birme.net/) webiste.

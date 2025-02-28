@@ -197,17 +197,19 @@ All bugs identified were fixed
 
 ---
 
-    ## Credits
-    * I would like to extend a special thanks to my tutor [Spencer Barriball](https://www.linkedin.com/in/spencerbarriball/), whose guidance and support have been invaluable throughout this journey.
+## Credits
+
+-   I would like to extend a special thanks to my tutor [Spencer Barriball](https://www.linkedin.com/in/spencerbarriball/), whose guidance and support have been invaluable throughout this journey.
     ### Content
-    * The icons in the footer and in the headings were taken from:[Font Awesome](https://fontawesome.com/).
-    * The Logo and Favicon was created at:[Canva](https://www.canva.com/).
-    * I took inspiration from the Love Running project to create the header, hero-image section and footer, and for development of the cards were based in [Youtube Class](https://www.youtube.com/watch?v=00LpIJ58FZ4).
-    * [Google fonts](https://fonts.google.com/) were used to import the fonts into the style.css file which is used on all pages throughout the project.
-    [COOLORS](https://coolors.co/) werw used to generate the color palettes, into the style.css file which is used on all pages throughout the project.
-    * Part of the English content in this website was generated with the assistance of [AI-ChatGPT](https://chat.openai.com/), an AI language model developed by OpenAI.
+-   The icons in the footer and in the headings were taken from:[Font Awesome](https://fontawesome.com/).
+-   The Logo and Favicon was created by Ylivdesign from:[flaticon.com](https://www.flaticon.com/free-icons/tenniscamp).
+-   I took inspiration from the Love Running project to create the header, hero-image section and footer. Other parts were inspired by [w3schools](https://www.w3schools.com/)
+-   [Google fonts](https://fonts.google.com/) were used to import the fonts into the style.css file which is used on all pages throughout the project.
+    [WebAIM](https://webaim.org/resources/contrastchecker/) were used to contrast the color palettes, into the style.css file which is used on all pages throughout the project.
+-   Part of the English content in this website was generated with the assistance of [AI-ChatGPT](https://chat.openai.com/), an AI language model developed by OpenAI.
 
     ### Media
-    * All the images in eache page of the site: Home, Services and Member was taken from: [Pexels](https://www.pexels.com/).
-    * The video in the home page as taken as well from [Pexels](https://www.pexels.com/).
-    * For a better performance of the website, the images was resizes and changed the format to WEBP using the [Birme](https://www.birme.net/) webiste.
+
+-   All the images in eache page of the site: Home, Services and Member was taken from: [Pexels](https://www.pexels.com/).
+-   The video in the home page as taken as well from [Pexels](https://www.pexels.com/).
+-   For a better performance of the website, the images was resizes and changed the format to WEBP using the [Birme](https://www.birme.net/) website.

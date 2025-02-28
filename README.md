@@ -112,7 +112,9 @@ The website is comprised of 4 pages, two of which are accessible from the naviga
 -   CSS
     -   [Vendor prefixes](https://autoprefixer.github.io/) Used Autoprefixer to parse the CSS and add vendor prefixes.
     -   [CSS Validator](https://validator.w3.org/#validate_by_upload) some syntax errors were identified.
-        ![Screenshot CSS page validator ](./documentation/css-validator.png)
+        ![Screenshot CSS page validator error ](./documentation/css-validator.png)
+    -   These were fixed.
+        ![Screenshot CSS page validator fixed ](./documentation/css-validatorfixed.png)
 
 ---
 

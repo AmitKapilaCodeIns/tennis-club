@@ -1,3 +1,23 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Richings Tennis](#richings-tennis)
+  - [User Stories](#user-stories)
+  - [Features](#features)
+    - [Features left to implement](#features-left-to-implement)
+  - [Testing](#testing)
+  - [Bugs](#bugs)
+    - [Unfixed Bugs](#unfixed-bugs)
+  - [Deployment](#deployment)
+    - [Version Control](#version-control)
+  - [Wireframes](#wireframes)
+  - [Credits](#credits)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+[Richings Tennis](#richings-tennis)
+
 # Richings Tennis
 
 The Richings Tennis club website's business goal is to increase membership. The site is an elegant solution to the need to showcase the club's services and it's friendly all-inclusive atmosphere.

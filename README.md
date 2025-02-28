@@ -12,6 +12,30 @@ Users will be able to submit a convenient membership inquiry form and find out h
 
 ---
 
+## User Stories
+
+As a First-Time Visitor:
+
+-   I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can find information quickly and efficiently without frustration.
+
+As a Casual player:
+
+-   I want to see high-quality images and engaging descriptions of the bar's ambience and tennis courts, so I can decide if it's the right place for me to relax and have fun.
+
+As a tennis newbie:
+
+-   I want to explore a selection of coaching options on the website, so I can decide which ones suit me or my child.
+
+As a Prospective Customer:
+
+-   I need to find essential information such as location, contact details, and opening hours clearly and concisely, so I can easily plan my visit or get in touch with the club.
+
+As a potential customer
+
+-   I want to be able to initiate a simple membership inquiry form, so I may be contacted by the membership team.
+
+---
+
 ## Features
 
 The website is comprised of 4 pages, two of which are accessible from the navigation menu (Home, Coaching, Membership). The last one is a button that opens a membership inquiry form.

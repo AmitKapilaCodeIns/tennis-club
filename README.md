@@ -74,12 +74,29 @@ The website is comprised of 4 pages, two of which are accessible from the naviga
 -   I tested and confirmed that the Membership form works, all fields are required, the email field only accepts email, and the submit button works perfectly in the end to submit the form, with a message back from the thank you page.
     ![Screenshot of data from the form submit ](./documentation/member-form.png)
 -   HTML
+
     -   [HTML Validator](https://validator.w3.org/#validate_by_upload) was run each page of the project. A syntax error was found in the footer of all 4 pages.
         ![Screenshot Html pages error ](./documentation/html-validator-error.png)
         The error was fixed. At the final stage no errors or warnings were found.
         ![Screenshot Html pages validator ](./documentation/html-validator.png)
+        ![Screenshot success Html page validator ](./documentation/successhtmlvalid.png)
+        ![Screenshot success Html page validator ](./documentation/membershiphtmlvalid.png)
+        ![Screenshot success Html page validator ](./documentation/coachinghtmlvalid.png)
+
 -   CSS
-    -   [CSS Validator](https://validator.w3.org/#validate_by_upload) was run each page of the project, and small syntax errors identified were fixed. At the final stage no errors or warnings were found.
+    -   [Vendor prefixes](https://autoprefixer.github.io/) Used Autoprefixer to parse the CSS and add vendor prefixes.
+    -   [CSS Validator](https://validator.w3.org/#validate_by_upload) some syntax errors were identified.
         ![Screenshot CSS page validator ](./documentation/css-validator.png)
+
+---
+
+## Bugs
+
+-   Initially, positioning the header with navigation correctly across different media sizes posed a challenge, resulting in duplicated lines. However, this issue was resolved after examining the use of relative measures in the width and height of elements.
+    ![Screenshot Navigation Bug ](./documentation/bug.png)
+
+-   Relative measures were also applied to image sizes, divs, and sections across all pages, as suggested and explained by the tutor to enhance responsiveness.
+
+---
 
 ---

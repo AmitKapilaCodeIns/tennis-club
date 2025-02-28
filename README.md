@@ -47,7 +47,7 @@ The website is comprised of 4 pages, two of which are accessible from the naviga
     -   The website logo and all pages use the main color theme; greens, blues and shades of white. The favicon adopts this theme. The primary colour choice of dark green and the secondary colour choice of light green reflect the colours a visitor might see. The navbar has light colours against a dark background contrasting each other well. The background is a light colour that contains the cards and other elements in a simple way.
     -   The primary font Prompt was chosen for it's harmonious and simple feel. The secondary Noto Serif elegantly makes large text stand out without looking ungainly.
     -   The icons used were chosen for their obvious meaning and purpose so that they can be understood by everyone.
-        ![Image of the navbar and the logo CelesTial](./documentation/navbar.png)
+        ![Image of the navbar and the logo Richings](./documentation/navbar.png)
     -   Dynamic Footer: the website boasts a dynamic footer section that provides essential links, such as social media profiles, contact information, and opening times, ensuring easy access to relevant content and enhancing user engagement.
         ![Image of the footer with all social medias contacs and copyright](./documentation/footer.png)
 

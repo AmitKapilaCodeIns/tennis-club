@@ -207,6 +207,7 @@ All bugs identified were fixed
 -   [Google fonts](https://fonts.google.com/) were used to import the fonts into the style.css file which is used on all pages throughout the project.
     [WebAIM](https://webaim.org/resources/contrastchecker/) were used to contrast the color palettes, into the style.css file which is used on all pages throughout the project.
 -   Part of the English content in this website was generated with the assistance of [AI-ChatGPT](https://chat.openai.com/), an AI language model developed by OpenAI.
+-   [Mockup](https://websitemockupgenerator.com) was used to create the mockup.
 
     ### Media
 

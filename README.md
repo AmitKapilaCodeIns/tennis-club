@@ -1,22 +1,21 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [Richings Tennis](#richings-tennis)
-  - [User Stories](#user-stories)
-  - [Features](#features)
-    - [Features left to implement](#features-left-to-implement)
-  - [Testing](#testing)
-  - [Bugs](#bugs)
-    - [Unfixed Bugs](#unfixed-bugs)
-  - [Deployment](#deployment)
-    - [Version Control](#version-control)
-  - [Wireframes](#wireframes)
-  - [Credits](#credits)
+**Table of Contents** _generated with [DocToc](https://github.com/thlorenz/doctoc)_
+
+-   [Richings Tennis](#richings-tennis)
+    -   [User Stories](#user-stories)
+    -   [Features](#features)
+        -   [Features left to implement](#features-left-to-implement)
+    -   [Testing](#testing)
+    -   [Bugs](#bugs)
+        -   [Unfixed Bugs](#unfixed-bugs)
+    -   [Deployment](#deployment)
+        -   [Version Control](#version-control)
+    -   [Wireframes](#wireframes)
+    -   [Credits](#credits)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-[Richings Tennis](#richings-tennis)
 
 # Richings Tennis
 
@@ -34,25 +33,36 @@ Users will be able to submit a convenient membership inquiry form and find out h
 
 ## User Stories
 
-As a First-Time Visitor:
+As a First-Time Visitor, I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can find information quickly and efficiently without frustration.
 
--   I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can find information quickly and efficiently without frustration.
+-   The site applies responsive design principles using Bootstrap to ensure the website is accessible on various devices.
+-   The site layout and navigation are based on best practices, ensuring all key sections and pages are easily accessible.
 
-As a Casual player:
+As a Casual player, I want to see high-quality images and engaging descriptions of the bar's ambience and tennis courts, so I can decide if it's the right place for me to relax and have fun.
 
--   I want to see high-quality images and engaging descriptions of the bar's ambience and tennis courts, so I can decide if it's the right place for me to relax and have fun.
+-   The site integrates high-quality images of the bar and some of the available courts into the website using a carousel.
+-   Embeds engaging descriptions for the bar's ambience and list of services available within the site's content.
+-   The homepage layout is designed and implemented using images and descriptions that feature prominently.
 
-As a tennis newbie:
+As a tennis newbie I want to explore a selection of coaching options on the website, so I can decide which ones suit me or my child.
 
--   I want to explore a selection of coaching options on the website, so I can decide which ones suit me or my child.
+-   A responsive coaching page can be linked to featuring coaching sessions and their relevant details.
 
-As a Prospective Customer:
+As a Prospective Customer, I need to find essential information such as location, contact details, and opening hours clearly and concisely, so I can easily plan my visit or get in touch with the club.
 
--   I need to find essential information such as location, contact details, and opening hours clearly and concisely, so I can easily plan my visit or get in touch with the club.
+-   The design and placement of a section for location, contact details, and opening hours using information provided by the client is contained within the footer.
+-   The contact section is clearly visible and accessible from all parts of the website, adhering to common design standards.
 
-As a potential customer
+As a potential customer, I want to be able to initiate a simple membership inquiry form, so I may be contacted by the membership team.
 
--   I want to be able to initiate a simple membership inquiry form, so I may be contacted by the membership team.
+-   A membership inquiry form has been implemented on the website.
+-   The form implements HTML validation to fit the requirements above.
+-   A success page to direct users to after submitting the form has also been implemented.
+
+As a keen player, I want to find clear information about upcoming events and pricing, so I can plan my visit within my budget and time constraints.
+
+-   The events section displays pricing for events using the provided rate information.
+-   It also clearly display student discount information with the pricing for events.
 
 ---
 

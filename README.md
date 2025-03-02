@@ -12,7 +12,7 @@
       - [As a potential customer, I want to be able to initiate a simple membership inquiry form, so I may be contacted by the membership team.](#as-a-potential-customer-i-want-to-be-able-to-initiate-a-simple-membership-inquiry-form-so-i-may-be-contacted-by-the-membership-team)
       - [As a keen player, I want to find clear information about upcoming events and pricing, so I can plan my visit within my budget and time constraints.](#as-a-keen-player-i-want-to-find-clear-information-about-upcoming-events-and-pricing-so-i-can-plan-my-visit-within-my-budget-and-time-constraints)
   - [Features](#features)
-      - [All pages on the website have:](#all-pages-on-the-website-have)
+      - [All pages on the website have](#all-pages-on-the-website-have)
       - [The home page](#the-home-page)
       - [The Coaching page](#the-coaching-page)
       - [The Membership form page](#the-membership-form-page)
@@ -95,46 +95,46 @@
 
 The website is comprised of 4 pages, two of which are accessible from the navigation menu (Home, Coaching, Membership). The last one is a button that opens a membership inquiry form.
 
-#### All pages on the website have:
+#### All pages on the website have
 
-    -   Clear Navigation: Easily navigate through different sections of the website, including Home, Services, Events, Coaching and Contact, situated to the right.
-    -   Responsive Design: Navigation bar adapts gracefully to various screen sizes, ensuring optimal usability whether you're browsing on a desktop, tablet, or mobile device situated in the burger-icon that expands when you click it. I used media queries for the different screen sizes.
-        [Adaptive card sizes consistent](https://github.com/AmitKapilaCodeIns/tennis-club/compare/ba689d2d571f57819a0ba75d99d154c98fd6f6e8...2c40a1f2fd0c8e7aa5846b1170ee82c17c9c67d4)
-    -   The header: At the top left in the header section, there is the website logo, that will take the user to the home page when clicked.
-    -   The website logo and all pages use the main color theme; greens, blues and shades of white. The favicon adopts this theme. The primary colour choice of dark green and the secondary colour choice of light green reflect the colours a visitor might see. The navbar has light colours against a dark background contrasting each other well. The background is a light colour that contains the cards and other elements in a simple way.
-    -   The buttons are styled to match the overall look and feel of the site.
-        [Navbar buttons use custom styling](https://github.com/AmitKapilaCodeIns/tennis-club/compare/cb7680af33262c3b0a04a0398db6a8705b21417f...501e0f9df51ed96b1a960e60a40209c0798d1a2c)
-        [Buttons on the page are also styled](https://github.com/AmitKapilaCodeIns/tennis-club/compare/a076573f8f9bba63e1169bb4e1d66d5136f00ae7...908ae2c77ae83d1886cd4863750053cea69472bd)
-    -   The primary font Prompt was chosen for it's harmonious and simple feel. The secondary Noto Serif elegantly makes large text stand out without looking ungainly.
-    -   The icons used were chosen for their obvious meaning and purpose so that they can be understood by everyone.
-        ![Image of the navbar and the logo Richings](./documentation/navbar.png)
-    -   Dynamic Footer: the website boasts a dynamic footer section that provides essential links, such as social media profiles, contact information, and opening times, ensuring easy access to relevant content and enhancing user engagement. The text is clearly contrasted standing out against the background. This helps the visually impaired to see information clearly. When the telephone number is clicked on the user is prompted to initiate a phone call & when the email address is clicked on a new email window is initiated, enhancing customer engagement.
-        ![Image of the footer with all social medias contacs and copyright](./documentation/footer.png)
+-   Clear Navigation: Easily navigate through different sections of the website, including Home, Services, Events, Coaching and Contact, situated to the right.
+-   Responsive Design: Navigation bar adapts gracefully to various screen sizes, ensuring optimal usability whether you're browsing on a desktop, tablet, or mobile device situated in the burger-icon that expands when you click it. I used media queries for the different screen sizes.
+    [Adaptive card sizes consistent](https://github.com/AmitKapilaCodeIns/tennis-club/compare/ba689d2d571f57819a0ba75d99d154c98fd6f6e8...2c40a1f2fd0c8e7aa5846b1170ee82c17c9c67d4)
+-   The header: At the top left in the header section, there is the website logo, that will take the user to the home page when clicked.
+-   The website logo and all pages use the main color theme; greens, blues and shades of white. The favicon adopts this theme. The primary colour choice of dark green and the secondary colour choice of light green reflect the colours a visitor might see. The navbar has light colours against a dark background contrasting each other well. The background is a light colour that contains the cards and other elements in a simple way.
+-   The buttons are styled to match the overall look and feel of the site.
+    [Navbar buttons use custom styling](https://github.com/AmitKapilaCodeIns/tennis-club/compare/cb7680af33262c3b0a04a0398db6a8705b21417f...501e0f9df51ed96b1a960e60a40209c0798d1a2c)
+    [Buttons on the page are also styled](https://github.com/AmitKapilaCodeIns/tennis-club/compare/a076573f8f9bba63e1169bb4e1d66d5136f00ae7...908ae2c77ae83d1886cd4863750053cea69472bd)
+-   The primary font Prompt was chosen for it's harmonious and simple feel. The secondary Noto Serif elegantly makes large text stand out without looking ungainly.
+-   The icons used were chosen for their obvious meaning and purpose so that they can be understood by everyone.
+    ![Image of the navbar and the logo Richings](./documentation/navbar.png)
+-   Dynamic Footer: the website boasts a dynamic footer section that provides essential links, such as social media profiles, contact information, and opening times, ensuring easy access to relevant content and enhancing user engagement. The text is clearly contrasted standing out against the background. This helps the visually impaired to see information clearly. When the telephone number is clicked on the user is prompted to initiate a phone call & when the email address is clicked on a new email window is initiated, enhancing customer engagement.
+    ![Image of the footer with all social medias contacs and copyright](./documentation/footer.png)
 
 #### The home page
 
-    -   The website features an engaging homepage designed to increase awareness of tennis club, provide essential information and encourage event participation. With stunning visuals, concise messaging, and intuitive navigation.
-        ![Image of the landing-page - welcome and carousel](./documentation/landing-page.png)
+-   The website features an engaging homepage designed to increase awareness of tennis club, provide essential information and encourage event participation. With stunning visuals, concise messaging, and intuitive navigation.
+    ![Image of the landing-page - welcome and carousel](./documentation/landing-page.png)
 
-        -   The services section highlights the diverse range of things available to members. It's role is to introduce visitors to Riching's engaging offerings, be they the all-weather tennis courts, the coaching services, friendly club atmosphere, tennis leagues, social sessions and the bar. The aim is to show the club will fulfill the needs of casual players looking for all year-round tennis in a fun and relaxed atmosphere or enthusiasts looking to play competitive team tennis and join leagues. Parents looking to encourage their kid’s tennis skills will also find the club satisfies that need. Furthermore, the layout of the services section has been optimized for responsiveness using CSS Grid. This ensures that the services are displayed in varying numbers of columns, depending on the screen size, providing an optimal viewing experience across different devices. Each card has a nice 3D effect. In addition the card simulates being raised when hovered over.
-            ![Image of the services section part of Riching's website](./documentation/services-section.png)
-        -   The events section details specific events held weekly. It allows visitors to decide on what events they are interested in and whether the timings suit them.
-            ![Image of the events section part of Riching's website](./documentation/events-section.png)
+    -   The services section highlights the diverse range of things available to members. It's role is to introduce visitors to Riching's engaging offerings, be they the all-weather tennis courts, the coaching services, friendly club atmosphere, tennis leagues, social sessions and the bar. The aim is to show the club will fulfill the needs of casual players looking for all year-round tennis in a fun and relaxed atmosphere or enthusiasts looking to play competitive team tennis and join leagues. Parents looking to encourage their kid’s tennis skills will also find the club satisfies that need. Furthermore, the layout of the services section has been optimized for responsiveness using CSS Grid. This ensures that the services are displayed in varying numbers of columns, depending on the screen size, providing an optimal viewing experience across different devices. Each card has a nice 3D effect. In addition the card simulates being raised when hovered over.
+        ![Image of the services section part of Riching's website](./documentation/services-section.png)
+    -   The events section details specific events held weekly. It allows visitors to decide on what events they are interested in and whether the timings suit them.
+        ![Image of the events section part of Riching's website](./documentation/events-section.png)
 
 #### The Coaching page
 
-    -   Discover the LTA approved coaching options available to a broad demographic. Each type of coaching service has a helpful description and to what type of person it is tailored to. The experienced coaches are here to offer encouragement and support. Coaching session information includes the Date, Time and the Age group it is catered to. Furthermore, the layout of the coaching page section has been optimized for responsiveness using CSS Grid. This ensures that the options are displayed in varying numbers of columns, depending on the screen size, providing an optimal viewing experience across different devices. Each card has a nice 3D effect. In addition the card simulates being raised when hovered over.
-        ![Image of the Coaching Cards](./documentation/coaching.png)
+-   Discover the LTA approved coaching options available to a broad demographic. Each type of coaching service has a helpful description and to what type of person it is tailored to. The experienced coaches are here to offer encouragement and support. Coaching session information includes the Date, Time and the Age group it is catered to. Furthermore, the layout of the coaching page section has been optimized for responsiveness using CSS Grid. This ensures that the options are displayed in varying numbers of columns, depending on the screen size, providing an optimal viewing experience across different devices. Each card has a nice 3D effect. In addition the card simulates being raised when hovered over.
+    ![Image of the Coaching Cards](./documentation/coaching.png)
 
 #### The Membership form page
 
-    -   Each page on the site contains a button that allows the visitor to submit a membership inquiry form that satisfies the need to increase membership. A simple and intuitive form allows visitors to make that first step in becoming a member. It allows the client to make contact with the club and the trained club staff to discuss membership in a personal manner. The submit button is clearly displayed and set apart from neighbouring elements.
-        ![Image of the membership page](./documentation/membership-form.png)
+-   Each page on the site contains a button that allows the visitor to submit a membership inquiry form that satisfies the need to increase membership. A simple and intuitive form allows visitors to make that first step in becoming a member. It allows the client to make contact with the club and the trained club staff to discuss membership in a personal manner. The submit button is clearly displayed and set apart from neighbouring elements.
+    ![Image of the membership page](./documentation/membership-form.png)
 
 #### The form success page
 
-    -   Once a visitor submits a membership inquiry form they want assurance that the form was submitted. They are redirected to a simple page thanking them for their interest. messageand intuitive form allows to make that first step in becoming a member. It allows the client to make contact with the club and the trained club staff to discuss membership in a personal manner.
-        ![Image of the thank you page](./documentation/thank-you.png)
+-   Once a visitor submits a membership inquiry form they want assurance that the form was submitted. They are redirected to a simple page thanking them for their interest. messageand intuitive form allows to make that first step in becoming a member. It allows the client to make contact with the club and the trained club staff to discuss membership in a personal manner.
+    ![Image of the thank you page](./documentation/thank-you.png)
 
 ### Features left to implement
 
@@ -147,7 +147,8 @@ The website is comprised of 4 pages, two of which are accessible from the naviga
 
 #### Accessibility
 
-    -   I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website. I confirmed that the colors and fonts are easy to read and that the site is accessible.
+-   I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website. I confirmed that the colors and fonts are easy to read and that the site is accessible.
+
     -   **INDEX PAGE**
         ![Lighthouse Index page screenshot ](./documentation/index-lighthouse.png)
     -   **COACHING PAGE**
@@ -166,21 +167,21 @@ The website is comprised of 4 pages, two of which are accessible from the naviga
 
 #### HTML
 
-    -   [HTML Validator](https://validator.w3.org/#validate_by_upload) was run each page of the project. A syntax error was found in the footer of all 4 pages.
-        ![Screenshot Html pages error ](./documentation/html-validator-error.png)
-        The error was fixed. At the final stage no errors or warnings were found.
-        ![Screenshot Html pages validator ](./documentation/html-validator.png)
-        ![Screenshot success Html page validator ](./documentation/successhtmlvalid.png)
-        ![Screenshot success Html page validator ](./documentation/membershiphtmlvalid.png)
-        ![Screenshot success Html page validator ](./documentation/coachinghtmlvalid.png)
+-   [HTML Validator](https://validator.w3.org/#validate_by_upload) was run each page of the project. A syntax error was found in the footer of all 4 pages.
+    ![Screenshot Html pages error ](./documentation/html-validator-error.png)
+    The error was fixed. At the final stage no errors or warnings were found.
+    ![Screenshot Html pages validator ](./documentation/html-validator.png)
+    ![Screenshot success Html page validator ](./documentation/successhtmlvalid.png)
+    ![Screenshot success Html page validator ](./documentation/membershiphtmlvalid.png)
+    ![Screenshot success Html page validator ](./documentation/coachinghtmlvalid.png)
 
 #### CSS
 
-    -   [Vendor prefixes](https://autoprefixer.github.io/) Used Autoprefixer to parse the CSS and add vendor prefixes.
-    -   [CSS Validator](https://validator.w3.org/#validate_by_upload) some syntax errors were identified.
-        ![Screenshot CSS page validator error ](./documentation/css-validator.png)
-    -   These were fixed.
-        ![Screenshot CSS page validator fixed ](./documentation/css-validatorfixed.png)
+-   [Vendor prefixes](https://autoprefixer.github.io/) Used Autoprefixer to parse the CSS and add vendor prefixes.
+-   [CSS Validator](https://validator.w3.org/#validate_by_upload) some syntax errors were identified.
+    ![Screenshot CSS page validator error ](./documentation/css-validator.png)
+-   These were fixed.
+    ![Screenshot CSS page validator fixed ](./documentation/css-validatorfixed.png)
 
 ---
 
@@ -219,11 +220,11 @@ The website is comprised of 4 pages, two of which are accessible from the naviga
 
 #### I had to replace a large image asset. When I tried to push that to GitHub it was not appearing in the repo. So, in order to fix this I renamed the replacement file. This somehow allowed the deleted image file to be deleted from the repo.
 
-    [Bugfix to delete file on repo](https://github.com/AmitKapilaCodeIns/tennis-club/compare/5474cd5bdff2bc2f4289bc806a652bd0a98db0b0...512305eb514cce6057a4e709d4de88f598b40a72#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051L86)
+-   [Bugfix to delete file on repo](https://github.com/AmitKapilaCodeIns/tennis-club/compare/5474cd5bdff2bc2f4289bc806a652bd0a98db0b0...512305eb514cce6057a4e709d4de88f598b40a72#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051L86)
 
 #### The fixed-top navbar was covering the header of a section whenever the internal link on the navbar was clicked on. I had to check in DevTools how many pixels I needed to push the header down by in order for it to not be covered. Then I added padding-top to the body.
 
-    [Bugfix to stop navbar obscuring headers](https://github.com/AmitKapilaCodeIns/tennis-club/compare/167eb3717597efd9cc4a3b36cf25faf8dfbe54d0...6f7e0e82e1cb63093db849d14555564d279757a1)
+-   [Bugfix to stop navbar obscuring headers](https://github.com/AmitKapilaCodeIns/tennis-club/compare/167eb3717597efd9cc4a3b36cf25faf8dfbe54d0...6f7e0e82e1cb63093db849d14555564d279757a1)
 
 -   The Bootstrap events table was overflowing on small screens.
     [Bugfix overlapping events table](https://github.com/AmitKapilaCodeIns/tennis-club/compare/2f67dc090bad30c761d04fb20eeda84cb017ecf5...8f8173609f23150e8b13dfb6fce4ec60e94832c1)
@@ -233,7 +234,7 @@ The website is comprised of 4 pages, two of which are accessible from the naviga
 
 #### I was not able to change the background colour of a Bootstrap table. I had to use \* as a CSS selector.
 
-    [Bugfix table not changing colour](https://github.com/AmitKapilaCodeIns/tennis-club/compare/17edca5109c3c6e08cbb86c7e560721d333d4817...c74ec5f58c8f92211730b6764ffcc385ea83de8d)
+-   [Bugfix table not changing colour](https://github.com/AmitKapilaCodeIns/tennis-club/compare/17edca5109c3c6e08cbb86c7e560721d333d4817...c74ec5f58c8f92211730b6764ffcc385ea83de8d)
 
 ---
 

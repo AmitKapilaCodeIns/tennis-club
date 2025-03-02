@@ -1,19 +1,36 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-**Table of Contents** _generated with [DocToc](https://github.com/thlorenz/doctoc)_
-
--   [Richings Tennis](#richings-tennis)
-    -   [User Stories](#user-stories)
-    -   [Features](#features)
-        -   [Features left to implement](#features-left-to-implement)
-    -   [Testing](#testing)
-    -   [Bugs](#bugs)
-        -   [Unfixed Bugs](#unfixed-bugs)
-    -   [Deployment](#deployment)
-        -   [Version Control](#version-control)
-    -   [Wireframes](#wireframes)
-    -   [Credits](#credits)
+- [Richings Tennis](#richings-tennis)
+  - [Planning](#planning)
+  - [Requirements](#requirements)
+  - [User Stories](#user-stories)
+      - [As a First-Time Visitor, I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can find information quickly and efficiently without frustration.](#as-a-first-time-visitor-i-need-easy-navigation-and-a-user-friendly-design-including-a-responsive-layout-for-my-device-so-i-can-find-information-quickly-and-efficiently-without-frustration)
+      - [As a Casual player, I want to see high-quality images and engaging descriptions of the bar's ambience and tennis courts, so I can decide if it's the right place for me to relax and have fun.](#as-a-casual-player-i-want-to-see-high-quality-images-and-engaging-descriptions-of-the-bars-ambience-and-tennis-courts-so-i-can-decide-if-its-the-right-place-for-me-to-relax-and-have-fun)
+      - [As a tennis newbie I want to explore a selection of coaching options on the website, so I can decide which ones suit me or my child.](#as-a-tennis-newbie-i-want-to-explore-a-selection-of-coaching-options-on-the-website-so-i-can-decide-which-ones-suit-me-or-my-child)
+      - [As a Prospective Customer, I need to find essential information such as location, contact details, and opening hours clearly and concisely, so I can easily plan my visit or get in touch with the club.](#as-a-prospective-customer-i-need-to-find-essential-information-such-as-location-contact-details-and-opening-hours-clearly-and-concisely-so-i-can-easily-plan-my-visit-or-get-in-touch-with-the-club)
+      - [As a potential customer, I want to be able to initiate a simple membership inquiry form, so I may be contacted by the membership team.](#as-a-potential-customer-i-want-to-be-able-to-initiate-a-simple-membership-inquiry-form-so-i-may-be-contacted-by-the-membership-team)
+      - [As a keen player, I want to find clear information about upcoming events and pricing, so I can plan my visit within my budget and time constraints.](#as-a-keen-player-i-want-to-find-clear-information-about-upcoming-events-and-pricing-so-i-can-plan-my-visit-within-my-budget-and-time-constraints)
+  - [Features](#features)
+      - [All pages on the website have:](#all-pages-on-the-website-have)
+      - [The home page](#the-home-page)
+      - [The Coaching page](#the-coaching-page)
+      - [The Membership form page](#the-membership-form-page)
+      - [The form success page](#the-form-success-page)
+    - [Features left to implement](#features-left-to-implement)
+  - [Testing](#testing)
+      - [Accessibility](#accessibility)
+      - [HTML](#html)
+      - [CSS](#css)
+  - [Bugs](#bugs)
+      - [I had to replace a large image asset. When I tried to push that to GitHub it was not appearing in the repo. So, in order to fix this I renamed the replacement file. This somehow allowed the deleted image file to be deleted from the repo.](#i-had-to-replace-a-large-image-asset-when-i-tried-to-push-that-to-github-it-was-not-appearing-in-the-repo-so-in-order-to-fix-this-i-renamed-the-replacement-file-this-somehow-allowed-the-deleted-image-file-to-be-deleted-from-the-repo)
+      - [The fixed-top navbar was covering the header of a section whenever the internal link on the navbar was clicked on. I had to check in DevTools how many pixels I needed to push the header down by in order for it to not be covered. Then I added padding-top to the body.](#the-fixed-top-navbar-was-covering-the-header-of-a-section-whenever-the-internal-link-on-the-navbar-was-clicked-on-i-had-to-check-in-devtools-how-many-pixels-i-needed-to-push-the-header-down-by-in-order-for-it-to-not-be-covered-then-i-added-padding-top-to-the-body)
+      - [I was not able to change the background colour of a Bootstrap table. I had to use \* as a CSS selector.](#i-was-not-able-to-change-the-background-colour-of-a-bootstrap-table-i-had-to-use-%5C-as-a-css-selector)
+    - [Unfixed Bugs](#unfixed-bugs)
+  - [Deployment](#deployment)
+    - [Version Control](#version-control)
+  - [Wireframes](#wireframes)
+  - [Credits](#credits)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -41,33 +58,33 @@
 
 ## User Stories
 
-As a First-Time Visitor, I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can find information quickly and efficiently without frustration.
+#### As a First-Time Visitor, I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can find information quickly and efficiently without frustration.
 
 -   The site applies responsive design principles using Bootstrap to ensure the website is accessible on various devices.
 -   The site layout and navigation are based on best practices, ensuring all key sections and pages are easily accessible.
 
-As a Casual player, I want to see high-quality images and engaging descriptions of the bar's ambience and tennis courts, so I can decide if it's the right place for me to relax and have fun.
+#### As a Casual player, I want to see high-quality images and engaging descriptions of the bar's ambience and tennis courts, so I can decide if it's the right place for me to relax and have fun.
 
 -   The site integrates high-quality images of the bar and some of the available courts into the website using a carousel.
 -   Embeds engaging descriptions for the bar's ambience and list of services available within the site's content.
 -   The homepage layout is designed and implemented using images and descriptions that feature prominently.
 
-As a tennis newbie I want to explore a selection of coaching options on the website, so I can decide which ones suit me or my child.
+#### As a tennis newbie I want to explore a selection of coaching options on the website, so I can decide which ones suit me or my child.
 
 -   A responsive coaching page can be linked to featuring coaching sessions and their relevant details.
 
-As a Prospective Customer, I need to find essential information such as location, contact details, and opening hours clearly and concisely, so I can easily plan my visit or get in touch with the club.
+#### As a Prospective Customer, I need to find essential information such as location, contact details, and opening hours clearly and concisely, so I can easily plan my visit or get in touch with the club.
 
 -   The design and placement of a section for location, contact details, and opening hours using information provided by the client is contained within the footer.
 -   The contact section is clearly visible and accessible from all parts of the website, adhering to common design standards.
 
-As a potential customer, I want to be able to initiate a simple membership inquiry form, so I may be contacted by the membership team.
+#### As a potential customer, I want to be able to initiate a simple membership inquiry form, so I may be contacted by the membership team.
 
 -   A membership inquiry form has been implemented on the website.
 -   The form implements HTML validation to fit the requirements above.
 -   A success page to direct users to after submitting the form has also been implemented.
 
-As a keen player, I want to find clear information about upcoming events and pricing, so I can plan my visit within my budget and time constraints.
+#### As a keen player, I want to find clear information about upcoming events and pricing, so I can plan my visit within my budget and time constraints.
 
 -   The events section displays pricing for events using the provided rate information.
 -   It also clearly display student discount information with the pricing for events.
@@ -78,7 +95,8 @@ As a keen player, I want to find clear information about upcoming events and pri
 
 The website is comprised of 4 pages, two of which are accessible from the navigation menu (Home, Coaching, Membership). The last one is a button that opens a membership inquiry form.
 
--   All pages on the website have:
+#### All pages on the website have:
+
     -   Clear Navigation: Easily navigate through different sections of the website, including Home, Services, Events, Coaching and Contact, situated to the right.
     -   Responsive Design: Navigation bar adapts gracefully to various screen sizes, ensuring optimal usability whether you're browsing on a desktop, tablet, or mobile device situated in the burger-icon that expands when you click it. I used media queries for the different screen sizes.
         [Adaptive card sizes consistent](https://github.com/AmitKapilaCodeIns/tennis-club/compare/ba689d2d571f57819a0ba75d99d154c98fd6f6e8...2c40a1f2fd0c8e7aa5846b1170ee82c17c9c67d4)
@@ -93,7 +111,7 @@ The website is comprised of 4 pages, two of which are accessible from the naviga
     -   Dynamic Footer: the website boasts a dynamic footer section that provides essential links, such as social media profiles, contact information, and opening times, ensuring easy access to relevant content and enhancing user engagement. The text is clearly contrasted standing out against the background. This helps the visually impaired to see information clearly. When the telephone number is clicked on the user is prompted to initiate a phone call & when the email address is clicked on a new email window is initiated, enhancing customer engagement.
         ![Image of the footer with all social medias contacs and copyright](./documentation/footer.png)
 
-*   The home page
+#### The home page
 
     -   The website features an engaging homepage designed to increase awareness of tennis club, provide essential information and encourage event participation. With stunning visuals, concise messaging, and intuitive navigation.
         ![Image of the landing-page - welcome and carousel](./documentation/landing-page.png)
@@ -103,17 +121,18 @@ The website is comprised of 4 pages, two of which are accessible from the naviga
         -   The events section details specific events held weekly. It allows visitors to decide on what events they are interested in and whether the timings suit them.
             ![Image of the events section part of Riching's website](./documentation/events-section.png)
 
-*   The Coaching page
+#### The Coaching page
 
     -   Discover the LTA approved coaching options available to a broad demographic. Each type of coaching service has a helpful description and to what type of person it is tailored to. The experienced coaches are here to offer encouragement and support. Coaching session information includes the Date, Time and the Age group it is catered to. Furthermore, the layout of the coaching page section has been optimized for responsiveness using CSS Grid. This ensures that the options are displayed in varying numbers of columns, depending on the screen size, providing an optimal viewing experience across different devices. Each card has a nice 3D effect. In addition the card simulates being raised when hovered over.
         ![Image of the Coaching Cards](./documentation/coaching.png)
 
-*   The Membership form page
+#### The Membership form page
 
     -   Each page on the site contains a button that allows the visitor to submit a membership inquiry form that satisfies the need to increase membership. A simple and intuitive form allows visitors to make that first step in becoming a member. It allows the client to make contact with the club and the trained club staff to discuss membership in a personal manner. The submit button is clearly displayed and set apart from neighbouring elements.
         ![Image of the membership page](./documentation/membership-form.png)
 
-*   The form success page
+#### The form success page
+
     -   Once a visitor submits a membership inquiry form they want assurance that the form was submitted. They are redirected to a simple page thanking them for their interest. messageand intuitive form allows to make that first step in becoming a member. It allows the client to make contact with the club and the trained club staff to discuss membership in a personal manner.
         ![Image of the thank you page](./documentation/thank-you.png)
 
@@ -126,23 +145,26 @@ The website is comprised of 4 pages, two of which are accessible from the naviga
 
 ## Testing
 
--   Accessibility
+#### Accessibility
+
     -   I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website. I confirmed that the colors and fonts are easy to read and that the site is accessible.
     -   **INDEX PAGE**
         ![Lighthouse Index page screenshot ](./documentation/index-lighthouse.png)
-    -   **COACHING PAGE**  
+    -   **COACHING PAGE**
         ![Lighthouse Services page screenshot ](./documentation/coaching-lighthouse.png)
-    -   **Membership PAGE**  
+    -   **Membership PAGE**
         ![Lighthouse Member page screenshot ](./documentation/membership-lighthouse.png)
-    -   **Membership PAGE**  
+    -   **Membership PAGE**
         ![Lighthouse Member page screenshot ](./documentation/thankyou-lighthouse.png)
+
 -   The website was tested on Chrome, Mozilla, Edge and Safari browsers with no problems found.
 -   Links: Tested and confirmed that each link refer to each page, worked as expected,and redirecting the user between the pages
     ![Screenshot google extension](./documentation/checkmylinks.png)
 -   Tested all links, to social media sites leading to external pages opened correctly in a seperate browser tab.
 -   I tested and confirmed that the Membership form works, all fields are required, the email field only accepts email, and the submit button works perfectly in the end to submit the form, with a message back from the thank you page.
     ![Screenshot of data from the form submit ](./documentation/membership-form.png)
--   HTML
+
+#### HTML
 
     -   [HTML Validator](https://validator.w3.org/#validate_by_upload) was run each page of the project. A syntax error was found in the footer of all 4 pages.
         ![Screenshot Html pages error ](./documentation/html-validator-error.png)
@@ -152,7 +174,8 @@ The website is comprised of 4 pages, two of which are accessible from the naviga
         ![Screenshot success Html page validator ](./documentation/membershiphtmlvalid.png)
         ![Screenshot success Html page validator ](./documentation/coachinghtmlvalid.png)
 
--   CSS
+#### CSS
+
     -   [Vendor prefixes](https://autoprefixer.github.io/) Used Autoprefixer to parse the CSS and add vendor prefixes.
     -   [CSS Validator](https://validator.w3.org/#validate_by_upload) some syntax errors were identified.
         ![Screenshot CSS page validator error ](./documentation/css-validator.png)
@@ -194,10 +217,12 @@ The website is comprised of 4 pages, two of which are accessible from the naviga
     </script>
 ```
 
--   I had to replace a large image asset. When I tried to push that to GitHub it was not appearing in the repo. So, in order to fix this I renamed the replacement file. This somehow allowed the deleted image file to be deleted from the repo.
+#### I had to replace a large image asset. When I tried to push that to GitHub it was not appearing in the repo. So, in order to fix this I renamed the replacement file. This somehow allowed the deleted image file to be deleted from the repo.
+
     [Bugfix to delete file on repo](https://github.com/AmitKapilaCodeIns/tennis-club/compare/5474cd5bdff2bc2f4289bc806a652bd0a98db0b0...512305eb514cce6057a4e709d4de88f598b40a72#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051L86)
 
--   The fixed-top navbar was covering the header of a section whenever the internal link on the navbar was clicked on. I had to check in DevTools how many pixels I needed to push the header down by in order for it to not be covered. Then I added padding-top to the body.
+#### The fixed-top navbar was covering the header of a section whenever the internal link on the navbar was clicked on. I had to check in DevTools how many pixels I needed to push the header down by in order for it to not be covered. Then I added padding-top to the body.
+
     [Bugfix to stop navbar obscuring headers](https://github.com/AmitKapilaCodeIns/tennis-club/compare/167eb3717597efd9cc4a3b36cf25faf8dfbe54d0...6f7e0e82e1cb63093db849d14555564d279757a1)
 
 -   The Bootstrap events table was overflowing on small screens.
@@ -206,7 +231,8 @@ The website is comprised of 4 pages, two of which are accessible from the naviga
 -   The Bootstrap events table size is set back to 1rem in a media query for sm screens and up.
     [Bugfix increase font size](https://github.com/AmitKapilaCodeIns/tennis-club/compare/8f8173609f23150e8b13dfb6fce4ec60e94832c1...167eb3717597efd9cc4a3b36cf25faf8dfbe54d0)
 
--   I was not able to change the background colour of a Bootstrap table. I had to use \* as a CSS selector.
+#### I was not able to change the background colour of a Bootstrap table. I had to use \* as a CSS selector.
+
     [Bugfix table not changing colour](https://github.com/AmitKapilaCodeIns/tennis-club/compare/17edca5109c3c6e08cbb86c7e560721d333d4817...c74ec5f58c8f92211730b6764ffcc385ea83de8d)
 
 ---

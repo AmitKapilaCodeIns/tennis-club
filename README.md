@@ -152,6 +152,75 @@ The website is comprised of 4 pages, two of which are accessible from the naviga
 -   Files are grouped in directories by file type
 -   ![Tree structure](./documentation/tree.png)
 
+#### Code format
+
+-   VS code automatically indents HTML and CSS to ease readability
+
+```
+ <!-- Footer / contact -->
+    <!-- will not be part of the grid structure as it spans the full width of the page. -->
+    <footer id="contact" class="mt-auto">
+        <div class="container section">
+            <!-- justify-content-center: Want the columns to be centred on xl screens -->
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <h2 class="display-6">Contact us!</h2>
+                </div>
+                <!-- Contact info want 4 on XL screens so that they do not spread to the sides-->
+                <div class="col-12 col-md-6 col-xl-4">
+                    <h3 class="sub-heading-color">Contact info</h3>
+                    <address>
+                        <strong><i class="fa-solid fa-location-dot"></i> Richings Tennis</strong><br>
+                        123 Acacia Avenue<br>
+                        Tillett, Herts, 12345
+                    </address>
+                    <p><i class="fa-solid fa-phone"></i> <a class="linkcolor" href="tel:0123456789"> 012 345
+                            6789</a><br>
+                        <i class="fa-regular fa-paper-plane"></i> <a class="linkcolor"
+                            href="mailto:info@richings-tennis.co">Email us</a>
+                    </p>
+```
+
+-   CSS code hierarchy is ordered, labelled and formatted to allow developers to quickly understand the rationale
+
+```
+    /* Google fonts import*/
+    @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+    /* CSS Variables */
+    :root {
+        --primary-font: "Prompt", sans-serif;
+        --secondary-font: "Noto Serif Display", serif;
+        --primary-color: #3a4a21; /* dark green */
+        --secondary-color: #c4c097; /* light green */
+        --highlight-color: #16316f; /* blue */
+        --highlight-color-light: #7a9fc2; /* light blue */
+    }
+
+    /* Global styles */
+
+    body {
+        font-family: var(--primary-font);
+        padding-top: 56px; /* pushes the top of the header down under fixed navbar */
+        background-color: antiquewhite;
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-family: var(--secondary-font);
+        color: var(--primary-color);
+    }
+    h1,
+    h2 {
+        text-transform: uppercase;
+    }
+
+    h2 {
+        margin-bottom: 2rem;
+    }
+```
+
 ---
 
 ## Testing

@@ -24,6 +24,7 @@
       - [Defensive design](#defensive-design)
       - [Code understandability](#code-understandability)
   - [Testing](#testing)
+      - [Manual Testing](#manual-testing)
       - [Accessibility](#accessibility)
       - [HTML](#html)
       - [CSS](#css)
@@ -275,6 +276,32 @@ The website is comprised of 4 pages, two of which are accessible from the naviga
 ---
 
 ## Testing
+
+#### Manual Testing
+
+| Feature                      | Action                       | Expected result                                | Tested | Passed | Comments                                                                                                              |
+| ---------------------------- | ---------------------------- | ---------------------------------------------- | ------ | ------ | --------------------------------------------------------------------------------------------------------------------- |
+| Navbar                       |                              |                                                |        |        |                                                                                                                       |
+| Home                         | Click on the "Home" link     | The user is redirected to the main page        | Yes    | Yes    | \-                                                                                                                    |
+| Services                     | Click on the "Services" link | The user is redirected to the Services section | Yes    | Yes    | \-                                                                                                                    |
+| Events                       | Click on the "Events" link   | The user is redirected to the Events section   | Yes    | Yes    | \-                                                                                                                    |
+| Coaching                     | Click on the "Coaching" link | The user is redirected to the Coaching page    | Yes    | Yes    | \-                                                                                                                    |
+| Contact                      | Click on the "Contact" link  | The user redirected to the Contact section     | Yes    | Yes    | \-                                                                                                                    |
+| Become a member              | Click "Become a member" link | The user redirected to the Membership page     | Yes    | Yes    | \-                                                                                                                    |
+| Footer                       |                              |                                                |        |        |                                                                                                                       |
+| Instagram icon in the footer | Click on the Instagram icon  | The user is redirected to the Instagram page   | Yes    | Yes    | \-                                                                                                                    |
+| Facebook icon in the footer  | Click on the Facebook icon   | The user is redirected to the Facebook page    | Yes    | Yes    | \-                                                                                                                    |
+| X icon in the footer         | Click on the X icon          | The user is redirected to the X page           | Yes    | Yes    | \-                                                                                                                    |
+| " Home page"                 |                              |                                                |        |        |                                                                                                                       |
+| Logo                         | Click on the "Logo" link     | The user is redirected to the main spage       | Yes    | Yes    | \-                                                                                                                    |
+| Membership page              |                              |                                                |        |        |                                                                                                                       |
+| Name input                   | Enter Name                   | Name is entered                                | Yes    | Yes    | If user doesn't enter name, the error message appears                                                                 |
+| Email input                  | Enter the email              | The email is entered                           | Yes    | Yes    | If user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
+| Phone number input           | Enter the phone number       | The phone number is entered                    | Yes    | Yes    | If user doesn't enter the number, the error message appears. If user enters an invalid number, input doesn't appear   |
+| Age input                    | Enter the age                | The age number is entered                      | Yes    | Yes    | If user doesn't enter the age, the error message appears. If user enters an invalid number, input doesn't appear      |
+| Message input                | Enter message                | Message is entered                             | Yes    | Yes    | If user doesn't enter message, the error message appears.                                                             |
+| "Submit" button              | Click on the "Submit" button | The user is redirected to the response page    | Yes    | Yes    | \-                                                                                                                    |
+|                              |                              |                                                |        |
 
 #### Accessibility
 

@@ -21,6 +21,7 @@
   - [Code](#code)
       - [Files](#files)
       - [Code format](#code-format)
+      - [Defensive design](#defensive-design)
   - [Testing](#testing)
       - [Accessibility](#accessibility)
       - [HTML](#html)
@@ -220,6 +221,35 @@ The website is comprised of 4 pages, two of which are accessible from the naviga
     h2 {
         margin-bottom: 2rem;
     }
+```
+
+#### Defensive design
+
+-   rel="noopener" prevent the browser from open the page on the same process as the other page, preventing the linking page to be spoofed by evil JavaScript on the destination page.
+
+```
+     <!-- Footer / contact -->
+    <!-- will not be part of the grid structure as it spans the full width of the page. -->
+    <footer id="contact" class="mt-auto">
+        <div class="container section">
+            <!-- justify-content-center: Want the columns to be centred on xl screens -->
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <h2 class="display-6">Contact us!</h2>
+                </div>
+                <!-- Contact info want 4 on XL screens so that they do not spread to the sides-->
+                <div class="col-12 col-md-6 col-xl-4">
+                    <h3 class="sub-heading-color">Contact info</h3>
+                    <address>
+                        <strong><i class="fa-solid fa-location-dot"></i> Richings Tennis</strong><br>
+                        123 Acacia Avenue<br>
+                        Tillett, Herts, 12345
+                    </address>
+                    <p><i class="fa-solid fa-phone"></i> <a class="linkcolor" href="tel:0123456789"> 012 345
+                            6789</a><br>
+                        <i class="fa-regular fa-paper-plane"></i> <a class="linkcolor"
+                            href="mailto:info@richings-tennis.co">Email us</a>
+                    </p>
 ```
 
 ---

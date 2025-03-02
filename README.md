@@ -22,6 +22,7 @@
       - [Files](#files)
       - [Code format](#code-format)
       - [Defensive design](#defensive-design)
+      - [Code understandability](#code-understandability)
   - [Testing](#testing)
       - [Accessibility](#accessibility)
       - [HTML](#html)
@@ -250,6 +251,25 @@ The website is comprised of 4 pages, two of which are accessible from the naviga
                         <i class="fa-regular fa-paper-plane"></i> <a class="linkcolor"
                             href="mailto:info@richings-tennis.co">Email us</a>
                     </p>
+```
+
+#### Code understandability
+
+-   Copious amounts of comments to explain what the code is doing and why.
+
+```
+    <!-- Footer / contact -->
+    <!-- will not be part of the grid structure as it spans the full width of the page. -->
+    <footer id="contact" class="mt-auto">
+        <div class="container section">
+            <!-- justify-content-center: Want the columns to be centred on xl screens -->
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <h2 class="display-6">Contact us!</h2>
+                </div>
+                <!-- Contact info want 4 on XL screens so that they do not spread to the sides-->
+                <div class="col-12 col-md-6 col-xl-4">
+                    <h3 class="sub-heading-color">Contact info</h3>
 ```
 
 ---

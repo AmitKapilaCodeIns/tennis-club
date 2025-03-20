@@ -1,42 +1,42 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Richings Tennis](#richings-tennis)
-  - [Planning](#planning)
-  - [Requirements](#requirements)
-  - [User Stories](#user-stories)
-      - [As a First-Time Visitor, I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can find information quickly and efficiently without frustration.](#as-a-first-time-visitor-i-need-easy-navigation-and-a-user-friendly-design-including-a-responsive-layout-for-my-device-so-i-can-find-information-quickly-and-efficiently-without-frustration)
-      - [As a Casual player, I want to see high-quality images and engaging descriptions of the bar's ambience and tennis courts, so I can decide if it's the right place for me to relax and have fun.](#as-a-casual-player-i-want-to-see-high-quality-images-and-engaging-descriptions-of-the-bars-ambience-and-tennis-courts-so-i-can-decide-if-its-the-right-place-for-me-to-relax-and-have-fun)
-      - [As a tennis newbie I want to explore a selection of coaching options on the website, so I can decide which ones suit me or my child.](#as-a-tennis-newbie-i-want-to-explore-a-selection-of-coaching-options-on-the-website-so-i-can-decide-which-ones-suit-me-or-my-child)
-      - [As a Prospective Customer, I need to find essential information such as location, contact details, and opening hours clearly and concisely, so I can easily plan my visit or get in touch with the club.](#as-a-prospective-customer-i-need-to-find-essential-information-such-as-location-contact-details-and-opening-hours-clearly-and-concisely-so-i-can-easily-plan-my-visit-or-get-in-touch-with-the-club)
-      - [As a potential customer, I want to be able to initiate a simple membership inquiry form, so I may be contacted by the membership team.](#as-a-potential-customer-i-want-to-be-able-to-initiate-a-simple-membership-inquiry-form-so-i-may-be-contacted-by-the-membership-team)
-      - [As a keen player, I want to find clear information about upcoming events and pricing, so I can plan my visit within my budget and time constraints.](#as-a-keen-player-i-want-to-find-clear-information-about-upcoming-events-and-pricing-so-i-can-plan-my-visit-within-my-budget-and-time-constraints)
-  - [Features](#features)
-      - [All pages on the website have](#all-pages-on-the-website-have)
-      - [The home page](#the-home-page)
-      - [The Coaching page](#the-coaching-page)
-      - [The Membership form page](#the-membership-form-page)
-      - [The form success page](#the-form-success-page)
-    - [Features left to implement](#features-left-to-implement)
-  - [Code](#code)
-      - [Files](#files)
-      - [Code format](#code-format)
-      - [Defensive design](#defensive-design)
-      - [Code understandability](#code-understandability)
-  - [Testing](#testing)
-      - [Manual Testing](#manual-testing)
-      - [Accessibility](#accessibility)
-      - [HTML](#html)
-      - [CSS](#css)
-  - [Bugs](#bugs)
-      - [I had to replace a large image asset. When I tried to push that to GitHub it was not appearing in the repo. So, in order to fix this I renamed the replacement file. This somehow allowed the deleted image file to be deleted from the repo.](#i-had-to-replace-a-large-image-asset-when-i-tried-to-push-that-to-github-it-was-not-appearing-in-the-repo-so-in-order-to-fix-this-i-renamed-the-replacement-file-this-somehow-allowed-the-deleted-image-file-to-be-deleted-from-the-repo)
-      - [The fixed-top navbar was covering the header of a section whenever the internal link on the navbar was clicked on. I had to check in DevTools how many pixels I needed to push the header down by in order for it to not be covered. Then I added padding-top to the body.](#the-fixed-top-navbar-was-covering-the-header-of-a-section-whenever-the-internal-link-on-the-navbar-was-clicked-on-i-had-to-check-in-devtools-how-many-pixels-i-needed-to-push-the-header-down-by-in-order-for-it-to-not-be-covered-then-i-added-padding-top-to-the-body)
-      - [I was not able to change the background colour of a Bootstrap table. I had to use \* as a CSS selector.](#i-was-not-able-to-change-the-background-colour-of-a-bootstrap-table-i-had-to-use-%5C-as-a-css-selector)
-    - [Unfixed Bugs](#unfixed-bugs)
-  - [Deployment](#deployment)
-    - [Version Control](#version-control)
-  - [Wireframes](#wireframes)
-  - [Credits](#credits)
+-   [Richings Tennis](#richings-tennis)
+    -   [Planning](#planning)
+    -   [Requirements](#requirements)
+    -   [User Stories](#user-stories)
+        -   [As a First-Time Visitor, I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can find information quickly and efficiently without frustration.](#as-a-first-time-visitor-i-need-easy-navigation-and-a-user-friendly-design-including-a-responsive-layout-for-my-device-so-i-can-find-information-quickly-and-efficiently-without-frustration)
+        -   [As a Casual player, I want to see high-quality images and engaging descriptions of the bar's ambience and tennis courts, so I can decide if it's the right place for me to relax and have fun.](#as-a-casual-player-i-want-to-see-high-quality-images-and-engaging-descriptions-of-the-bars-ambience-and-tennis-courts-so-i-can-decide-if-its-the-right-place-for-me-to-relax-and-have-fun)
+        -   [As a tennis newbie I want to explore a selection of coaching options on the website, so I can decide which ones suit me or my child.](#as-a-tennis-newbie-i-want-to-explore-a-selection-of-coaching-options-on-the-website-so-i-can-decide-which-ones-suit-me-or-my-child)
+        -   [As a Prospective Customer, I need to find essential information such as location, contact details, and opening hours clearly and concisely, so I can easily plan my visit or get in touch with the club.](#as-a-prospective-customer-i-need-to-find-essential-information-such-as-location-contact-details-and-opening-hours-clearly-and-concisely-so-i-can-easily-plan-my-visit-or-get-in-touch-with-the-club)
+        -   [As a potential customer, I want to be able to initiate a simple membership inquiry form, so I may be contacted by the membership team.](#as-a-potential-customer-i-want-to-be-able-to-initiate-a-simple-membership-inquiry-form-so-i-may-be-contacted-by-the-membership-team)
+        -   [As a keen player, I want to find clear information about upcoming events and pricing, so I can plan my visit within my budget and time constraints.](#as-a-keen-player-i-want-to-find-clear-information-about-upcoming-events-and-pricing-so-i-can-plan-my-visit-within-my-budget-and-time-constraints)
+    -   [Features](#features)
+        -   [All pages on the website have](#all-pages-on-the-website-have)
+        -   [The home page](#the-home-page)
+        -   [The Coaching page](#the-coaching-page)
+        -   [The Membership form page](#the-membership-form-page)
+        -   [The form success page](#the-form-success-page)
+        -   [Features left to implement](#features-left-to-implement)
+    -   [Code](#code)
+        -   [Files](#files)
+        -   [Code format](#code-format)
+        -   [Defensive design](#defensive-design)
+        -   [Code understandability](#code-understandability)
+    -   [Testing](#testing)
+        -   [Manual Testing](#manual-testing)
+        -   [Accessibility](#accessibility)
+        -   [HTML](#html)
+        -   [CSS](#css)
+    -   [Bugs](#bugs)
+        -   [I had to replace a large image asset. When I tried to push that to GitHub it was not appearing in the repo. So, in order to fix this I renamed the replacement file. This somehow allowed the deleted image file to be deleted from the repo.](#i-had-to-replace-a-large-image-asset-when-i-tried-to-push-that-to-github-it-was-not-appearing-in-the-repo-so-in-order-to-fix-this-i-renamed-the-replacement-file-this-somehow-allowed-the-deleted-image-file-to-be-deleted-from-the-repo)
+        -   [The fixed-top navbar was covering the header of a section whenever the internal link on the navbar was clicked on. I had to check in DevTools how many pixels I needed to push the header down by in order for it to not be covered. Then I added padding-top to the body.](#the-fixed-top-navbar-was-covering-the-header-of-a-section-whenever-the-internal-link-on-the-navbar-was-clicked-on-i-had-to-check-in-devtools-how-many-pixels-i-needed-to-push-the-header-down-by-in-order-for-it-to-not-be-covered-then-i-added-padding-top-to-the-body)
+        -   [I was not able to change the background colour of a Bootstrap table. I had to use \* as a CSS selector.](#i-was-not-able-to-change-the-background-colour-of-a-bootstrap-table-i-had-to-use-%5C-as-a-css-selector)
+        -   [Unfixed Bugs](#unfixed-bugs)
+    -   [Deployment](#deployment)
+        -   [Version Control](#version-control)
+    -   [Wireframes](#wireframes)
+    -   [Credits](#credits)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -46,11 +46,11 @@
 
 -   The Richings Tennis club website's business goal is to increase membership.
 
--   The club is run by a commitee that includes a chairman, treasurer, club secretary and others.
+-   The club is run by a committee that includes a chairman, treasurer, club secretary and others.
 
 ## Requirements
 
--   They need an elegant solution to be designed that showcases the club's services and it's friendly all-inclusive atmosphere.
+-   They need an elegant solution to be designed that showcases the club's services and friendly all-inclusive atmosphere.
 
 -   The website should illustrate the all-weather tennis courts, the coaching services, friendly club atmosphere, tennis leagues, social sessions, the bar.
 
@@ -93,13 +93,13 @@
 #### As a keen player, I want to find clear information about upcoming events and pricing, so I can plan my visit within my budget and time constraints.
 
 -   The events section displays pricing for events using the provided rate information.
--   It also clearly display student discount information with the pricing for events.
+-   It also clearly displays student discount information with the pricing for events.
 
 ---
 
 ## Features
 
-The website is comprised of 4 pages, two of which are accessible from the navigation menu (Home, Coaching, Membership). The last one is a button that opens a membership inquiry form.
+The website comprises 4 pages, two of which are accessible from the navigation menu (Home, Coaching, Membership). The last one is a button that opens a membership inquiry form.
 
 #### All pages on the website have
 
@@ -111,7 +111,7 @@ The website is comprised of 4 pages, two of which are accessible from the naviga
 -   The buttons are styled to match the overall look and feel of the site.
     [Navbar buttons use custom styling](https://github.com/AmitKapilaCodeIns/tennis-club/compare/cb7680af33262c3b0a04a0398db6a8705b21417f...501e0f9df51ed96b1a960e60a40209c0798d1a2c)
     [Buttons on the page are also styled](https://github.com/AmitKapilaCodeIns/tennis-club/compare/a076573f8f9bba63e1169bb4e1d66d5136f00ae7...908ae2c77ae83d1886cd4863750053cea69472bd)
--   The primary font Prompt was chosen for it's harmonious and simple feel. The secondary Noto Serif elegantly makes large text stand out without looking ungainly.
+-   The primary font Prompt was chosen for its harmonious and simple feel. The secondary Noto Serif elegantly makes large text stand out without looking ungainly.
 -   The icons used were chosen for their obvious meaning and purpose so that they can be understood by everyone.
     ![Image of the navbar and the logo Richings](./documentation/navbar.png)
 -   Dynamic Footer: the website boasts a dynamic footer section that provides essential links, such as social media profiles, contact information, and opening times, ensuring easy access to relevant content and enhancing user engagement. The text is clearly contrasted standing out against the background. This helps the visually impaired to see information clearly. When the telephone number is clicked on the user is prompted to initiate a phone call & when the email address is clicked on a new email window is initiated, enhancing customer engagement.
@@ -119,10 +119,10 @@ The website is comprised of 4 pages, two of which are accessible from the naviga
 
 #### The home page
 
--   The website features an engaging homepage designed to increase awareness of tennis club, provide essential information and encourage event participation. With stunning visuals, concise messaging, and intuitive navigation.
+-   The website features an engaging homepage designed to increase awareness of the tennis club, provide essential information and encourage event participation. With stunning visuals, concise messaging, and intuitive navigation.
     ![Image of the landing-page - welcome and carousel](./documentation/landing-page.png)
 
-    -   The services section highlights the diverse range of things available to members. It's role is to introduce visitors to Riching's engaging offerings, be they the all-weather tennis courts, the coaching services, friendly club atmosphere, tennis leagues, social sessions and the bar. The aim is to show the club will fulfill the needs of casual players looking for all year-round tennis in a fun and relaxed atmosphere or enthusiasts looking to play competitive team tennis and join leagues. Parents looking to encourage their kid’s tennis skills will also find the club satisfies that need. Furthermore, the layout of the services section has been optimized for responsiveness using CSS Grid. This ensures that the services are displayed in varying numbers of columns, depending on the screen size, providing an optimal viewing experience across different devices. Each card has a nice 3D effect. In addition the card simulates being raised when hovered over.
+    -   The services section highlights the diverse range of things available to members. It's role is to introduce visitors to Riching's engaging offerings, be they the all-weather tennis courts, the coaching services, friendly club atmosphere, tennis leagues, social sessions and the bar. The aim is to show the club will fulfill the needs of casual players looking for all-year-round tennis in a fun and relaxed atmosphere or enthusiasts looking to play competitive team tennis and join leagues. Parents looking to encourage their kid’s tennis skills will also find the club satisfies that need. Furthermore, the layout of the services section has been optimized for responsiveness using CSS Grid. This ensures that the services are displayed in varying numbers of columns, depending on the screen size, providing an optimal viewing experience across different devices. Each card has a nice 3D effect. In addition the card simulates being raised when hovered over.
         ![Image of the services section part of Riching's website](./documentation/services-section.png)
     -   The events section details specific events held weekly. It allows visitors to decide on what events they are interested in and whether the timings suit them.
         ![Image of the events section part of Riching's website](./documentation/events-section.png)
@@ -139,7 +139,7 @@ The website is comprised of 4 pages, two of which are accessible from the naviga
 
 #### The form success page
 
--   Once a visitor submits a membership inquiry form they want assurance that the form was submitted. They are redirected to a simple page thanking them for their interest. messageand intuitive form allows to make that first step in becoming a member. It allows the client to make contact with the club and the trained club staff to discuss membership in a personal manner.
+-   Once a visitor submits a membership inquiry form they want assurance that the form was submitted. They are redirected to a simple page thanking them for their interest. The intuitive form allows them to make that first step in becoming a member. It allows the client to make contact with the club and the trained club staff to discuss membership in a personal manner.
     ![Image of the thank you page](./documentation/thank-you.png)
 
 ### Features left to implement
@@ -227,7 +227,7 @@ The website is comprised of 4 pages, two of which are accessible from the naviga
 
 #### Defensive design
 
--   rel="noopener" prevent the browser from open the page on the same process as the other page, preventing the linking page to be spoofed by evil JavaScript on the destination page.
+-   rel="noopener" prevents the browser from opening the page on the same process as the other page, preventing the linking page from being spoofed by evil JavaScript on the destination page.
 
 ```
      <!-- Footer / contact -->
@@ -279,28 +279,28 @@ The website is comprised of 4 pages, two of which are accessible from the naviga
 
 #### Manual Testing
 
-| Feature                      | Action                       | Expected result                                | Tested | Passed | Comments                                                                                                              |
-| ---------------------------- | ---------------------------- | ---------------------------------------------- | ------ | ------ | --------------------------------------------------------------------------------------------------------------------- |
-| Navbar                       |                              |                                                |        |        |                                                                                                                       |
-| Home                         | Click on the "Home" link     | The user is redirected to the main page        | Yes    | Yes    | \-                                                                                                                    |
-| Services                     | Click on the "Services" link | The user is redirected to the Services section | Yes    | Yes    | \-                                                                                                                    |
-| Events                       | Click on the "Events" link   | The user is redirected to the Events section   | Yes    | Yes    | \-                                                                                                                    |
-| Coaching                     | Click on the "Coaching" link | The user is redirected to the Coaching page    | Yes    | Yes    | \-                                                                                                                    |
-| Contact                      | Click on the "Contact" link  | The user redirected to the Contact section     | Yes    | Yes    | \-                                                                                                                    |
-| Become a member              | Click "Become a member" link | The user redirected to the Membership page     | Yes    | Yes    | \-                                                                                                                    |
-| Footer                       |                              |                                                |        |        |                                                                                                                       |
-| Instagram icon in the footer | Click on the Instagram icon  | The user is redirected to the Instagram page   | Yes    | Yes    | \-                                                                                                                    |
-| Facebook icon in the footer  | Click on the Facebook icon   | The user is redirected to the Facebook page    | Yes    | Yes    | \-                                                                                                                    |
-| X icon in the footer         | Click on the X icon          | The user is redirected to the X page           | Yes    | Yes    | \-                                                                                                                    |
-| " Home page"                 |                              |                                                |        |        |                                                                                                                       |
-| Logo                         | Click on the "Logo" link     | The user is redirected to the main spage       | Yes    | Yes    | \-                                                                                                                    |
-| Membership page              |                              |                                                |        |        |                                                                                                                       |
-| Name input                   | Enter Name                   | Name is entered                                | Yes    | Yes    | If user doesn't enter name, the error message appears                                                                 |
-| Email input                  | Enter the email              | The email is entered                           | Yes    | Yes    | If user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
-| Phone number input           | Enter the phone number       | The phone number is entered                    | Yes    | Yes    | If user doesn't enter the number, the error message appears. If user enters an invalid number, input doesn't appear   |
-| Age input                    | Enter the age                | The age number is entered                      | Yes    | Yes    | If user doesn't enter the age, the error message appears. If user enters an invalid number, input doesn't appear      |
-| Message input                | Enter message                | Message is entered                             | Yes    | Yes    | If user doesn't enter message, the error message appears.                                                             |
-| "Submit" button              | Click on the "Submit" button | The user is redirected to the response page    | Yes    | Yes    | \-                                                                                                                    |
+| Feature                      | Action                       | Expected result                                | Tested | Passed | Comments                                                                                                                  |
+| ---------------------------- | ---------------------------- | ---------------------------------------------- | ------ | ------ | ------------------------------------------------------------------------------------------------------------------------- |
+| Navbar                       |                              |                                                |        |        |                                                                                                                           |
+| Home                         | Click on the "Home" link     | The user is redirected to the main page        | Yes    | Yes    | \-                                                                                                                        |
+| Services                     | Click on the "Services" link | The user is redirected to the Services section | Yes    | Yes    | \-                                                                                                                        |
+| Events                       | Click on the "Events" link   | The user is redirected to the Events section   | Yes    | Yes    | \-                                                                                                                        |
+| Coaching                     | Click on the "Coaching" link | The user is redirected to the Coaching page    | Yes    | Yes    | \-                                                                                                                        |
+| Contact                      | Click on the "Contact" link  | The user redirected to the Contact section     | Yes    | Yes    | \-                                                                                                                        |
+| Become a member              | Click "Become a member" link | The user redirected to the Membership page     | Yes    | Yes    | \-                                                                                                                        |
+| Footer                       |                              |                                                |        |        |                                                                                                                           |
+| Instagram icon in the footer | Click on the Instagram icon  | The user is redirected to the Instagram page   | Yes    | Yes    | \-                                                                                                                        |
+| Facebook icon in the footer  | Click on the Facebook icon   | The user is redirected to the Facebook page    | Yes    | Yes    | \-                                                                                                                        |
+| X icon in the footer         | Click on the X icon          | The user is redirected to the X page           | Yes    | Yes    | \-                                                                                                                        |
+| " Home page"                 |                              |                                                |        |        |                                                                                                                           |
+| Logo                         | Click on the "Logo" link     | The user is redirected to the main page        | Yes    | Yes    | \-                                                                                                                        |
+| Membership page              |                              |                                                |        |        |                                                                                                                           |
+| Name input                   | Enter Name                   | Name is entered                                | Yes    | Yes    | If the user doesn't enter name, the error message appears                                                                 |
+| Email input                  | Enter the email              | The email is entered                           | Yes    | Yes    | If the user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
+| Phone number input           | Enter the phone number       | The phone number is entered                    | Yes    | Yes    | If the user doesn't enter the number, the error message appears. If user enters an invalid number, input doesn't appear   |
+| Age input                    | Enter the age                | The age number is entered                      | Yes    | Yes    | If the user doesn't enter the age, the error message appears. If user enters an invalid number, input doesn't appear      |
+| Message input                | Enter message                | Message is entered                             | Yes    | Yes    | If the user doesn't enter a message, the error message appears.                                                           |
+| "Submit" button              | Click on the "Submit" button | The user is redirected to the response page    | Yes    | Yes    | \-                                                                                                                        |
 |                              |                              |                                                |        |
 
 #### Accessibility
@@ -319,13 +319,13 @@ The website is comprised of 4 pages, two of which are accessible from the naviga
 -   The website was tested on Chrome, Mozilla, Edge and Safari browsers with no problems found.
 -   Links: Tested and confirmed that each link refer to each page, worked as expected,and redirecting the user between the pages
     ![Screenshot google extension](./documentation/checkmylinks.png)
--   Tested all links, to social media sites leading to external pages opened correctly in a seperate browser tab.
+-   Tested all links to social media sites leading to external pages opened correctly in a separate browser tab.
 -   I tested and confirmed that the Membership form works, all fields are required, the email field only accepts email, and the submit button works perfectly in the end to submit the form, with a message back from the thank you page.
     ![Screenshot of data from the form submit ](./documentation/membership-form.png)
 
 #### HTML
 
--   [HTML Validator](https://validator.w3.org/#validate_by_upload) was run each page of the project. A syntax error was found in the footer of all 4 pages.
+-   [HTML Validator](https://validator.w3.org/#validate_by_upload) was run on each page of the project. A syntax error was found in the footer of all 4 pages.
     ![Screenshot Html pages error ](./documentation/html-validator-error.png)
     The error was fixed. At the final stage no errors or warnings were found.
     ![Screenshot Html pages validator ](./documentation/html-validator.png)
@@ -380,7 +380,7 @@ The website is comprised of 4 pages, two of which are accessible from the naviga
 
 -   [Bugfix to delete file on repo](https://github.com/AmitKapilaCodeIns/tennis-club/compare/5474cd5bdff2bc2f4289bc806a652bd0a98db0b0...512305eb514cce6057a4e709d4de88f598b40a72#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051L86)
 
-#### The fixed-top navbar was covering the header of a section whenever the internal link on the navbar was clicked on. I had to check in DevTools how many pixels I needed to push the header down by in order for it to not be covered. Then I added padding-top to the body.
+#### The fixed-top navbar was covering the header of a section whenever the internal link on the navbar was clicked on. I had to check in DevTools how many pixels I needed to push the header down in order for it to not be covered. Then I added padding-top to the body.
 
 -   [Bugfix to stop navbar obscuring headers](https://github.com/AmitKapilaCodeIns/tennis-club/compare/167eb3717597efd9cc4a3b36cf25faf8dfbe54d0...6f7e0e82e1cb63093db849d14555564d279757a1)
 
@@ -417,7 +417,7 @@ All bugs identified were fixed
     4. In Settings scroll down to GitHub pages which opens in a new page;
     5. From the source section drop-down menu, select the Master Branch;
     6. Once the master branch has been selected, the page is automatically refreshed and a display indicates the successful deployment and the link to the address.
-       The live live link can be acess here: [Richings Tennis](https://amitkapilacodeins.github.io/tennis-club/index.html)
+       The live link can be accessed here: [Richings Tennis](https://amitkapilacodeins.github.io/tennis-club/index.html)
     ### Cloning Repository Code locally
     -   To clone the repository code locally, follow these steps:
     1. Navigate to the Github repository you wish to clone;
@@ -431,7 +431,7 @@ All bugs identified were fixed
 
 ## Wireframes
 
--   These wireframes were created using Balsamiq during the Scope Plane part of the design and planning process for this project. The site was developed with the Desktop layout method first. The wireframes were therefore drawn with that thought in mind and adapted along of the project, and created with [Balsamiq](https://balsamiq.cloud/) . First picture: Home page, Second picture: Coaching page, Third picture: Member page, Fourth picture: Thank you page.
+-   These wireframes were created using Balsamiq during the Scope Plane part of the design and planning process for this project. The site was developed with the Desktop layout method first. The wireframes were therefore drawn with that thought in mind and adapted alongside project changes, and created with [Balsamiq](https://balsamiq.cloud/) . First picture: Home page, Second picture: Coaching page, Third picture: Member page, Fourth picture: Thank you page.
     ![Screenshot Home page Wiframe ](./wireframes/home-wiframe.png)
     ![Screenshot Coaching page Wiframe ](./wireframes/coaching-wiframe.png)
     ![Screenshot Member page Wiframe](./wireframes/member-wiframe.png)
@@ -454,8 +454,8 @@ All bugs identified were fixed
 
     ### Media
 
--   All the images in eache page of the site: Home, Services and Member was taken from: [Pexels](https://www.pexels.com/).
--   The video in the home page as taken as well from [Pexels](https://www.pexels.com/).
--   For a better performance of the website, the images was resizes and changed the format to WEBP using the [Birme](https://www.birme.net/) website.
+-   All the images in each page of the site: Home, Services and Member was taken from: [Pexels](https://www.pexels.com/).
+-   The video in the home page was also taken from [Pexels](https://www.pexels.com/).
+-   For a better performance of the website, the images were resized and the format changed to WEBP using the [Birme](https://www.birme.net/) website.
 
 [def]: .documentation/checkmylinks.png

@@ -115,7 +115,7 @@ The website comprises 4 pages, two of which are accessible from the navigation m
 -   The icons used were chosen for their obvious meaning and purpose so that they can be understood by everyone.
     ![Image of the navbar and the logo Richings](./documentation/navbar.png)
 -   Dynamic Footer: the website boasts a dynamic footer section that provides essential links, such as social media profiles, contact information, and opening times, ensuring easy access to relevant content and enhancing user engagement. The text is clearly contrasted standing out against the background. This helps the visually impaired to see information clearly. When the telephone number is clicked on the user is prompted to initiate a phone call & when the email address is clicked on a new email window is initiated, enhancing customer engagement.
-    ![Image of the footer with all social medias contacs and copyright](./documentation/footer.png)
+    ![Image of the footer with all social medias contacs and copyright](./documentation/contactUs.png)
 
 #### The home page
 
